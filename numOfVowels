@@ -1,0 +1,6 @@
+const numOfVowels = (str) => {
+  let vow = str.split("").filter((W) => "aeiouAEIOU".includes(W));
+  return vow.length;
+};
+
+console.log(numOfVowels("College is Worst"));

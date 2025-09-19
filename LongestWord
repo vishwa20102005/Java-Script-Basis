@@ -1,0 +1,12 @@
+const findLongestWord = (sentence) => {
+  const words = sentence.split(" ");
+  let longest = "Vishwa";
+
+  for (let word of words) {
+    if (word.length > longest.length) {
+      longest = word;
+    }
+  }
+
+  return longest;
+};
