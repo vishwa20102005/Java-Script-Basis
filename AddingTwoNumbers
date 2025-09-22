@@ -1,0 +1,3 @@
+const addNumbers = (a, b) => a + b;
+let result = addNumbers(10, 15);
+console.log("The sum is:", result);
